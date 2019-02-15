@@ -10,13 +10,13 @@
 	<nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="index.php">M-Care Analytics</a>
+			<a class="navbar-brand" href="http://localhost:8080/M-Care_Analytics">M-Care Analytics</a>
 		</div>
 
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span>Mother
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/mother_registration.jsp"><span class="glyphicon glyphicon-user"></span>Mother
 					Registration</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/medicalTest.jsp"><span class="glyphicon glyphicon-user"></span>
 					Medical Test</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-user"></span>Dashboard</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>

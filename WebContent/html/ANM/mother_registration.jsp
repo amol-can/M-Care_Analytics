@@ -13,14 +13,14 @@
 <!-- Latest compiled JavaScript -->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<title>Insert title here</title>
+<title>Mother Registration</title>
 </head>
 <body>
 	<%@ include file="../header.jsp"%>
 	<%@ include file="../navbar.jsp"%>
 
 	<div class="container">
-		<form action="save.jsp" method="GET">
+		<form action="/MotherRegistrationService" method="GET">
 			<div class="form-group">
 				<h1>Mother Registration Detail</h1> <br>
 				
@@ -46,8 +46,9 @@
 				
 				<div class="form-inline">
 					<label for="text">DOB:</label> 
-					<input type="text" class="form-control" id="mAge" placeholder="Enter mother's date of birth" name="mAge">
-				</div> <br>
+					<input type="date" class="form-control" id="dob" name="dob" value="2019-02-15"  min="2019-02-15" max="2050-12-31">         
+           		</div>
+			</div>
 				
 				<div class="form-inline">
 					
