@@ -13,7 +13,7 @@
 <!-- Latest compiled JavaScript -->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<title>Insert title here</title>
+<title>Medical Test Record</title>
 </head>
 <body>
 	<%@include file="../header.jsp" %>

@@ -18,7 +18,7 @@
 					Registration</a></li>
 			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/medicalTest.jsp"><span class="glyphicon glyphicon-user"></span>
 					Medical Test</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span>Dashboard</a></li>
+			<li><a href="html/ANM/showHighRisk.jsp"><span class="glyphicon glyphicon-user"></span>Dashboard</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
 					Administrator</a></li>
 		</ul>
