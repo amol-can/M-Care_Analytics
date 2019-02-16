@@ -63,7 +63,7 @@
 				<%
 					for (MedicalDataModel model : mModel) {
 				%>
-				<tr>
+				<tr class="warning">
 					<td><%=model.getUid()%></td>
 					<td><%=model.getName()%></td>
 					<td><%=model.getDate()%></td>
@@ -85,5 +85,12 @@
 			<%=count%>
 		</h5>
 	</div>
+	
+	<!-- For pie chart  -->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<div id="piechartContainer" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+	<script src="http://localhost:8080/M-Care_Analytics/js/pieChart.js"></script>
 </body>
 </html>

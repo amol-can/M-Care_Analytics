@@ -14,11 +14,12 @@
 		</div>
 
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/mother_registration.jsp"><span class="glyphicon glyphicon-user"></span>Mother
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/mother_registration.jsp"><span class="glyphicon glyphicon-pencil"></span> Mother
 					Registration</a></li>
-			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/medicalTest.jsp"><span class="glyphicon glyphicon-user"></span>
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/medicalTest.jsp"><span class="glyphicon glyphicon-plus"></span>
 					Medical Test</a></li>
-			<li><a href="html/ANM/showHighRisk.jsp"><span class="glyphicon glyphicon-user"></span>Dashboard</a></li>
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/questions.jsp"><span class="glyphicon glyphicon-question-sign"></span> Questionnaire</a></li>
+			<li><a href="http://localhost:8080/M-Care_Analytics/html/ANM/showHighRisk.jsp"><span class="glyphicon glyphicon-signal"></span> Dashboard</a></li>
 			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
 					Administrator</a></li>
 		</ul>
