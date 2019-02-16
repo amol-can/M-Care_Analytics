@@ -20,7 +20,7 @@
 	<%@ include file="../navbar.jsp"%>
 
 	<div class="container">
-		<form action="/MotherRegistrationService" method="GET">
+		<form action="mRegister" method="get">
 			<div class="form-group">
 				<h1>Mother Registration Detail</h1> <br>
 				
@@ -99,6 +99,6 @@
 			</div>
 		</form>
 	</div>
-
+	
 </body>
 </html>

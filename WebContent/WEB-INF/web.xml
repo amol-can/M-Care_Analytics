@@ -8,13 +8,13 @@
 		<welcome-file>html/index.jsp</welcome-file>
 	</welcome-file-list>
 
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>mRegistration</servlet-name>
-		<servlet-class>com.mcare.dao</servlet-class>
+		<servlet-class>com.mcare.dao.MotherRegistration</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>mRegistration</servlet-name>
-		<url-pattern>/MotherRegistrationService</url-pattern>
-	</servlet-mapping>
+		<url-pattern>html/ANM/mRegister/mRegister</url-pattern>
+	</servlet-mapping> -->
 
 </web-app>

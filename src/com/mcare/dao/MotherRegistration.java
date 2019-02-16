@@ -8,11 +8,6 @@ import com.mysql.jdbc.PreparedStatement;
 
 public class MotherRegistration {
 	
-	public static void main(String args[]) throws ClassNotFoundException, SQLException {
-		MotherRegistration mReg = new MotherRegistration();
-		mReg.registerPatient("sita", "jaydip", "7015478945", "8412548798", "30-10-1995", "maharashtra", "latur", "udgir", "gurdhal", "hanuman mandir", "apab@gmail.com");
-	}
-	
 	public boolean registerPatient(String name, String hname,String uid, String mob, String dob, String state, String district,String town,String village,String address,String email) throws SQLException, ClassNotFoundException {
 		DatabaseConnection dbConn = new DatabaseConnection();
 		
@@ -42,7 +37,7 @@ public class MotherRegistration {
 		      
 		      conn.close();
 		
-		return false;		
+		return true;		
 	}
 
 }
