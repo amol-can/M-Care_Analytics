@@ -95,7 +95,7 @@
 					<label for="text">Email Id:</label> 
 					<input type="email" class="form-control" id="email" placeholder="Enter email id if available" name="email">
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button> 
+				<button type="submit" class="btn btn-primary">Submit</button> <br>
 			</div>
 		</form>
 	</div>
